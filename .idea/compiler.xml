@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mysql-data-demo" />
+        <module name="mq-publish" />
         <module name="file-upload" />
         <module name="form-submit" />
         <module name="hystrix-server-bookstore" />
@@ -25,6 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mq-publish (1) (com.laq.springcloud)" target="17" />
       <module name="ribbon-say-hello1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -37,6 +39,8 @@
       <module name="hystrix-consumer-reading" options="-parameters" />
       <module name="hystrix-server-bookstore" options="-parameters" />
       <module name="jpa-data-demo" options="-parameters" />
+      <module name="mq-publish" options="-parameters" />
+      <module name="mq-publish (1) (com.laq.springcloud)" options="-parameters" />
       <module name="mysql-data-demo" options="-parameters" />
       <module name="redis-demo" options="-parameters" />
       <module name="ribbon-consumer-user" options="-parameters" />
