@@ -10,21 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="init camunda code">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/camunda_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/src/main/java/com/laq/camunda/CamundaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camunda/src/test/java/com/laq/camunda/CamundaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,12 +445,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RibbonSayHelloApplication-8083" />
+      <item itemvalue="Application.RibbonSayHelloApplication-8084" />
       <item itemvalue="Application.EurekaServerApplication" />
       <item itemvalue="Application.JpaDataDemoApplication" />
       <item itemvalue="Application.MysqlDataDemoApplication" />
       <item itemvalue="Application.RedisDemoApplication" />
-      <item itemvalue="Application.RibbonSayHelloApplication-8083" />
-      <item itemvalue="Application.RibbonSayHelloApplication-8084" />
       <item itemvalue="JUnit.All in mq-publish" />
       <item itemvalue="Spring Boot.CamundaApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
@@ -518,6 +505,7 @@
       <workItem from="1682045720474" duration="18000" />
       <workItem from="1688439384024" duration="4259000" />
       <workItem from="1688520466099" duration="6704000" />
+      <workItem from="1688549265549" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1678694293108</created>
