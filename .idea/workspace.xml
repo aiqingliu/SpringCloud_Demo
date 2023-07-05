@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="camunda:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="spring-boot-maven-plugin 添加版本号使其可下载">
-      <change afterPath="$PROJECT_DIR$/mq-publish/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="init camunda code">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/camunda_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/src/main/java/com/laq/camunda/CamundaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camunda/src/test/java/com/laq/camunda/CamundaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -30,6 +44,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -110,10 +125,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="localRepository" value="F:\Users\Administrator\.m2\repository" />
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
         <option name="useMavenConfig" value="true" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -168,13 +183,14 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33103448" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -189,7 +205,14 @@
       <recent name="com.lhf.springcloud.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in mq-publish">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CamundaApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lhf.springcloud.EurekaServerApplication" />
       <module name="eureka-server" />
@@ -294,6 +317,14 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CamundaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="camunda" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laq.camunda.CamundaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -427,38 +458,39 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RibbonSayHelloApplication-8083" />
-      <item itemvalue="Application.RibbonSayHelloApplication-8084" />
       <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Application.JpaDataDemoApplication" />
       <item itemvalue="Application.MysqlDataDemoApplication" />
       <item itemvalue="Application.RedisDemoApplication" />
-      <item itemvalue="Application.JpaDataDemoApplication" />
-      <item itemvalue="Spring Boot.JpaDataDemoApplication" />
-      <item itemvalue="Spring Boot.HystrixConsumerReadingApplication" />
-      <item itemvalue="Spring Boot.MysqlDataDemoApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.RedisDemoApplication" />
-      <item itemvalue="Spring Boot.HystrixServerBookstoreApplication" />
-      <item itemvalue="Spring Boot.RibbonConsumerUser1Application" />
-      <item itemvalue="Spring Boot.RibbonConsumerUserApplication" />
-      <item itemvalue="Spring Boot.RibbonConsumerUser2Application" />
-      <item itemvalue="Spring Boot.ZuulBookApplication" />
-      <item itemvalue="Spring Boot.RibbonSayHelloApplication" />
-      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
-      <item itemvalue="Spring Boot.FileUploadApplication" />
-      <item itemvalue="Spring Boot.EurekaClientApplication" />
-      <item itemvalue="Spring Boot.FormSubmitApplication" />
-      <item itemvalue="Spring Boot.MqPublishApplication" />
-      <item itemvalue="Spring Boot.MqPublishApplication (1)" />
+      <item itemvalue="Application.RibbonSayHelloApplication-8083" />
+      <item itemvalue="Application.RibbonSayHelloApplication-8084" />
       <item itemvalue="JUnit.All in mq-publish" />
+      <item itemvalue="Spring Boot.CamundaApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.FileUploadApplication" />
+      <item itemvalue="Spring Boot.FormSubmitApplication" />
+      <item itemvalue="Spring Boot.HystrixConsumerReadingApplication" />
+      <item itemvalue="Spring Boot.HystrixServerBookstoreApplication" />
+      <item itemvalue="Spring Boot.JpaDataDemoApplication" />
+      <item itemvalue="Spring Boot.MqPublishApplication (1)" />
+      <item itemvalue="Spring Boot.MqPublishApplication" />
+      <item itemvalue="Spring Boot.MysqlDataDemoApplication" />
+      <item itemvalue="Spring Boot.RedisDemoApplication" />
+      <item itemvalue="Spring Boot.RibbonConsumerUser1Application" />
+      <item itemvalue="Spring Boot.RibbonConsumerUser2Application" />
+      <item itemvalue="Spring Boot.RibbonConsumerUserApplication" />
+      <item itemvalue="Spring Boot.RibbonSayHelloApplication" />
+      <item itemvalue="Spring Boot.ZuulBookApplication" />
+      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in mq-publish" />
-        <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.JpaDataDemoApplication" />
         <item itemvalue="Application.RedisDemoApplication" />
         <item itemvalue="Application.MysqlDataDemoApplication" />
+        <item itemvalue="Application.JpaDataDemoApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +514,10 @@
       <workItem from="1678956630201" duration="1735000" />
       <workItem from="1679366616940" duration="2344000" />
       <workItem from="1679369003918" duration="9379000" />
-      <workItem from="1679906240711" duration="1494000" />
+      <workItem from="1679906240711" duration="3599000" />
+      <workItem from="1682045720474" duration="18000" />
+      <workItem from="1688439384024" duration="4259000" />
+      <workItem from="1688520466099" duration="6704000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1678694293108</created>
@@ -498,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679381585509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="any and qmqp">
+      <created>1679907808529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679907808529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +640,9 @@
     <MESSAGE value="em" />
     <MESSAGE value="init commit" />
     <MESSAGE value="spring-boot-maven-plugin 添加版本号使其可下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-maven-plugin 添加版本号使其可下载" />
+    <MESSAGE value="any and qmqp" />
+    <MESSAGE value="init camunda code" />
+    <option name="LAST_COMMIT_MESSAGE" value="init camunda code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
