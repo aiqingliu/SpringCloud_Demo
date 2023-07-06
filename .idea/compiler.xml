@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -27,10 +28,7 @@
         <module name="ribbon-consumer-user2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mq-publish (1) (com.laq.springcloud)" target="17" />
-      <module name="ribbon-say-hello1" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -43,7 +41,6 @@
       <module name="hystrix-server-bookstore" options="-parameters" />
       <module name="jpa-data-demo" options="-parameters" />
       <module name="mq-publish" options="-parameters" />
-      <module name="mq-publish (1) (com.laq.springcloud)" options="-parameters" />
       <module name="mysql-data-demo" options="-parameters" />
       <module name="redis-demo" options="-parameters" />
       <module name="ribbon-consumer-user" options="-parameters" />

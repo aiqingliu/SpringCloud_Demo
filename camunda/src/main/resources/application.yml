@@ -1,19 +1,24 @@
 server:
-  port: 8099
-
+  port: 8081
+## camunda登录信息配置
 camunda:
   bpm:
     admin-user:
-      id: admin
+      id: laq
       password: 123456
-      first-name: laq
+      last-name: l
+      first-name: aq
+      email: 160911@qq.com
     filter:
       create: All tasks
-
+    database:
+      type: mysql
+## mysql连接信息
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/camunda
-    username: root
-    password: 000000
+#    url: jdbc:mysql://localhost:3306/camunda?nullDatabaseMeansCurrent=true
+    url: jdbc:mysql://localhost:3306/camunda?nullDatabaseMeansCurrent=true&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true
+    username: laq
+    password: 123456
     type: com.mysql.cj.jdbc.MysqlDataSource

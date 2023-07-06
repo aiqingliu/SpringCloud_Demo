@@ -10,8 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="init camunda code">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/src/main/java/com/laq/camunda/CamundaApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/camunda/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camunda/src/test/java/com/laq/camunda/CamundaApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,10 +183,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33103448" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -196,6 +205,7 @@
     <option name="configurationTypes">
       <set>
         <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
@@ -505,7 +515,8 @@
       <workItem from="1682045720474" duration="18000" />
       <workItem from="1688439384024" duration="4259000" />
       <workItem from="1688520466099" duration="6704000" />
-      <workItem from="1688549265549" duration="16000" />
+      <workItem from="1688549265549" duration="936000" />
+      <workItem from="1688573322836" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1678694293108</created>
@@ -528,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679907808529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init camunda code">
+      <created>1688549307246</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688549307246</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
